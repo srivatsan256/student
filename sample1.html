@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+            display:grid;
+            place-items: center;
+            margin-top:8%;
+            color:rgb(21, 102, 21);
+            letter-spacing: 0.2px;
+        }
+.background 
+{
+  position: relative;
+  height: 400px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #d1d0ced7;
+  overflow: hidden;
+}
+.upper{
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .upper img{
+            height:80px;
+            width: 60px;
+            float: left;
+            margin-left:5px;
+            margin-top:5px;
+            
+        }
+
+        .title{
+            padding-top: 10px;
+            text-align: center;
+            padding-right: 10px;
+        }
+        .psg{
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+        .tech{
+            font-weight: bold;
+            font-size:10px;
+        }
+
+        .middle{
+            padding-top:10px;
+            width: 100%;
+            height: auto;
+            display: grid;
+            place-items: center;
+
+        }
+
+        .middle img{
+            width:120px;
+            height: 140px;
+        }
+
+        .det{
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .name{
+            font-weight:bolder;
+        }
+
+        .class{
+            font-weight:600;
+        }
+.bot {                                     
+ position:absolute;
+ bottom:0;
+width:100%;
+ height: auto;
+ background-color: rgb(21, 102, 21);
+ text-align: center;
+ padding:5px;
+ padding-right: 7px;
+    
+}
+
+.address
+{
+color: white;
+padding-right: 7px;
+}
+#barcode{
+            margin-top:5px;
+            width:70%;
+            height: 60px;
+        }
+</style>
+</head>
+<body>
+    <h2>Id card </h2>
+    <div class="background">
+        <div class="upper">
+            <img src="PSG.png" alt="PSG" width="60" height="60"><div class="title">
+                <span class="psg">PSG</span><br>
+                <span class="tech">COLLEGE OF TECHNOLOGY</span>
+            </div>
+        </div>
+        
+        <div class="middle">
+            <img src="srivatsan.jpg" alt="srivatsan" width="120" height="140">
+            <div class="det">
+                <span class="name">Srivatsan<br>
+                <span class="class">BE CSE (AI &amp; ML) 22N256</span>
+                <img id="barcode" src="barcode.jpg">
+        <div class="bot">
+
+            <div class="address">
+                <span>
+                 Peelamedu, Coimbatore-641004 Phone 0422-2572177, 4344777
+                </span>
+            </div>
+        </div>    
+    </div>
+        
+</body>
+</html> 
